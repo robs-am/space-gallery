@@ -1,6 +1,7 @@
 .header {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    
     align-items: center;
     margin: 1.5rem 24px;
   
@@ -8,8 +9,9 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      margin: 0.5rem;
       padding: 6px 10px;
-      width: 33%;
+      width: 50%;
       position: relative;
       z-index: 0;
   
@@ -20,7 +22,7 @@
         border-radius: 10px;
         z-index: -1;
         border: 2px solid transparent;
-        background: linear-gradient(to right, #c98cf1, #7b78e5) border-box;
+        background: linear-gradient(to right, #a2a0f4, #7b78e5) border-box;
         -webkit-mask: linear-gradient(#fff 0 0) padding-box,
           linear-gradient(#fff 0 0);
         -webkit-mask-composite: xor;
@@ -29,8 +31,8 @@
     }
   
     &__input {
-      width: 80%;
-      height: 30px;
+      width: 100%;
+      height: 35px;
       color: #d9d9d9;
       font-size: 1rem;
       border: none;
@@ -38,7 +40,7 @@
       outline: 0;
   
       &::placeholder {
-        font-size: 1rem;
+        font-size: 0.9rem;
       }
     }
   
