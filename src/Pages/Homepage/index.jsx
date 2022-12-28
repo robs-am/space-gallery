@@ -10,10 +10,10 @@ export default function Homepage() {
     <>
       <Header />
       <main>
-        <section>
-          <Menu />
-          <div>
-            <h1>galeria</h1>
+        <section  className={styles.principal}>
+         
+          <div className={styles.principal__imagem}>
+            <h1 className={styles.principal__h1}>galeria</h1>
             <img src={Banner} alt="Imagem de cristais em um planeta AI" />
           </div>
         </section>
