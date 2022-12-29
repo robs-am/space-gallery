@@ -12,7 +12,7 @@ export default function Menu() {
     <nav className={styles.menu}>
       <ul className={styles.menu__lista}>
         <li className={styles.menu__item}>
-          <img src={inicio} alt="" />
+          <img src={inicio}  alt="" />
           <a href="/">Home</a>
         </li>
         <li className={styles.menu__item}>

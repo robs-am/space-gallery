@@ -1,10 +1,17 @@
 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="32" height="32" rx="8" fill="url(#paint0_linear_1506_172)"/>
+<rect x="0.5" y="0.5" width="31" height="31" rx="7.5" stroke="url(#paint1_linear_1506_172)" stroke-opacity="0.63"/>
 <path d="M13.5 26L15 18.5L9 16.25L19.5 5L18 12.5L24 14.75L13.5 26Z" stroke="#FAFCFF" stroke-linecap="round" stroke-linejoin="round"/>
 <defs>
 <linearGradient id="paint0_linear_1506_172" x1="0" y1="16" x2="32" y2="16" gradientUnits="userSpaceOnUse">
-<stop stop-color="#363296"/>
-<stop offset="1" stop-color="#7B78E5"/>
+<stop stop-color="#3A1753"/>
+<stop offset="0.286458" stop-color="#8A46B8" stop-opacity="0.63"/>
+<stop offset="0.682292" stop-color="#8A46B8" stop-opacity="0.67"/>
+<stop offset="1" stop-color="#3A1753" stop-opacity="0.82"/>
+</linearGradient>
+<linearGradient id="paint1_linear_1506_172" x1="16" y1="0" x2="16" y2="32" gradientUnits="userSpaceOnUse">
+<stop stop-color="#ADACB6" stop-opacity="0.86"/>
+<stop offset="1" stop-color="#383737" stop-opacity="0.38"/>
 </linearGradient>
 </defs>
 </svg>

@@ -1,4 +1,4 @@
-import Menu from "../../Components/Menu";
+
 import Header from "./../../Components/Header/index";
 
 import Banner from "./Banner.png"
