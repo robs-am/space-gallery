@@ -1,4 +1,5 @@
 
+import Galeria from "../../Components/Galeria";
 import Header from "./../../Components/Header/index";
 
 import Banner from "./Banner.png"
@@ -17,6 +18,7 @@ export default function Homepage() {
             <img src={Banner} alt="Imagem de cristais em um planeta AI" />
           </div>
         </section>
+        <div><Galeria /></div>
       </main>
     </>
   );
