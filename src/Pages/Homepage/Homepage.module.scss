@@ -6,14 +6,15 @@ main {
 
 .principal {
   display: flex;
-  align-items: center;
-  flex-direction: column-reverse;
-  justify-content: space-between;
-  margin-top: 2rem;
+  align-items:center;
+ 
+  justify-content: flex-end;
+  margin-top: 3.5rem;
 
   &__imagem {
     img {
-      width: 100%;
+      //margin-left: 3rem;
+      width: 85%;
     }
 
     position: relative;
@@ -21,16 +22,16 @@ main {
     h1 {
       position: absolute;
       z-index: 1;
-      color: #d9d9d9;
-      font-size: 1.8rem;
-      width: 350px;
+      color: #eae5e5;
+      
+      width:320px;
       font-weight: 400;
-      font-size: 28px;
+      font-size: 32px;
       line-height: 35px;
-      height: 144px;
-      left: 430px;
-      top: 140px;
-      font-family: $fonte-bold;
+      height: 100px;
+      left: 350px;
+      top: 120px;
+      font-family: $fonte-normal;
     }
   }
 }
