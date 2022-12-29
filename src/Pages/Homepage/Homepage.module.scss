@@ -2,6 +2,15 @@
 
 main {
   margin: 0 24px;
+
+  
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+  
 }
 
 .principal {
@@ -9,7 +18,7 @@ main {
   align-items:center;
  
   justify-content: flex-end;
-  margin-top: 3.5rem;
+  margin-top: 2rem;
 
   &__imagem {
     img {
@@ -35,3 +44,4 @@ main {
     }
   }
 }
+
