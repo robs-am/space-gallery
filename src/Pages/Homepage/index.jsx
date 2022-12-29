@@ -13,7 +13,7 @@ export default function Homepage() {
         <section  className={styles.principal}>
          
           <div className={styles.principal__imagem}>
-            <h1 className={styles.principal__h1}>galeria</h1>
+            <h1 className={styles.principal__h1}>Explore a galeria  gerada por Inteligência Artifical</h1>
             <img src={Banner} alt="Imagem de cristais em um planeta AI" />
           </div>
         </section>
