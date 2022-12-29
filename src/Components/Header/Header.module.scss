@@ -1,3 +1,5 @@
+@import "../../styles/variaveis.scss";
+
 .header {
     display: flex;
     flex-direction: column;
@@ -39,8 +41,8 @@
     &__input {
       width: 100%;
       height: 35px;
-      color: #d9d9d9;
-      font-size: 1rem;
+      color: $cor-do-texto;
+      font-size: $fonte-normal;
       border: none;
       background-color: transparent;
       outline: 0;

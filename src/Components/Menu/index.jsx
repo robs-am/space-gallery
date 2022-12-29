@@ -5,7 +5,9 @@ import novas from "../../assets/icones/novas.svg"
 import vistas from "../../assets/icones/vistas.svg"
 import surpreenda from "../../assets/icones/surpreenda.svg"
 
+
 import styles from "./Menu.module.scss"
+
 
 export default function Menu() {
   return (

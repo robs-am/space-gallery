@@ -1,3 +1,5 @@
+@import "../../styles/variaveis.scss";
+
 main {
   margin: 0 24px;
 }
@@ -28,7 +30,7 @@ main {
       height: 144px;
       left: 430px;
       top: 140px;
-      font-family: "GandhiSansBold";
+      font-family: $fonte-bold;
     }
   }
 }
