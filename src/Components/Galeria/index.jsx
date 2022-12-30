@@ -2,6 +2,8 @@ import React from 'react'
 import Tags from '../Tags'
 import styles from './Galeria.module.scss'
 import fotos from './fotos.json';
+import open from './open.png'
+import favorito from './favorito.png'
 
 
 export default function Galeria() {
@@ -9,12 +11,12 @@ export default function Galeria() {
     <section className={styles.galeria}>
         <h2>Navegue pela galeria</h2>
         <Tags />
-        <ul className={styles.galeria__lista}>
+        <ul className={styles.galeria__cards}>
           {fotos.map((foto)=>{
             return (
               <li key={foto.id} className={styles.galeria__card}>
                 <img
-                  className={styles.galeria__image}
+                  className={styles.galeria__imagem}
                   src={foto.imagem}
                   alt={foto.titulo}
                   />
@@ -22,8 +24,8 @@ export default function Galeria() {
                 <div>
                   <p>{foto.creditos}</p>
                   <span>
-                    <img src="" alt="icone coração curtir" />
-                    <img src="" alt="icone abrir modal" />
+                    <img src={favorito} alt="icone coração curtir" />
+                    <img src={open} alt="icone abrir modal" />
                   </span>
                 </div>
               </li>
