@@ -3,21 +3,21 @@ import React from "react";
 import open from './open.png'
 import favorito from './favorito.png'
 
-export default function Cards({fotos, styles}) {
+export default function Cards({itens, styles}) {
   return (
     <div>
       <ul className={styles.galeria__cards}>
-        {fotos.map((foto) => {
+        {itens.map((item) => {
           return (
-            <li key={foto.id} className={styles.galeria__card}>
+            <li key={item.id} className={styles.galeria__card}>
               <img
                 className={styles.galeria__imagem}
-                src={foto.imagem}
-                alt={foto.titulo}
+                src={item.imagem}
+                alt={item.titulo}
               />
-              <p className={styles.galeria__descricao}>{foto.titulo}</p>
+              <p className={styles.galeria__descricao}>{item.titulo}</p>
               <div>
-                <p>{foto.creditos}</p>
+                <p>{item.creditos}</p>
                 <span>
                   <img src={favorito} alt="icone coração curtir" />
                   <img src={open} alt="icone abrir modal" />
