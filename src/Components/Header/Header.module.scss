@@ -2,16 +2,12 @@
 
 .header {
     display: flex;
-    flex-direction: column;
     
+    justify-content: space-between;
     align-items: center;
     margin: 2rem 24px;
 
-    &__top {
-      width:80%;
-      display: flex;
-      justify-content: space-around;
-    }
+    
   
     &__container {
       display: flex;

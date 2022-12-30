@@ -1,16 +1,16 @@
 @import "../../styles/variaveis";
 
  .menu {
-    //width: 18%;
+    width: 18%;
   
     &__lista {
       padding-left: 0.5rem;
       margin: 0;
-      height: 130px;
+      height: 276px;
       list-style: none;
       display: flex;
-      
-      justify-content: space-between;
+      flex-direction: column;
+      justify-content: space-around;
     }
   
     &__item {
