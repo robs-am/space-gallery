@@ -1,6 +1,9 @@
 import React from "react";
 
-export default function Cards() {
+import open from './open.png'
+import favorito from './favorito.png'
+
+export default function Cards({fotos, styles}) {
   return (
     <div>
       <ul className={styles.galeria__cards}>
