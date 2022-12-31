@@ -1,4 +1,5 @@
 import Galeria from "../../Components/Galeria";
+import Populares from "../../Components/Galeria/Populares";
 import Menu from "../../Components/Menu";
 import Header from "./../../Components/Header/index";
 
@@ -10,7 +11,7 @@ export default function Homepage() {
   return (
     <>
       <Header />
-        
+
       <main>
         <section className={styles.principal}>
           <Menu />
@@ -21,9 +22,10 @@ export default function Homepage() {
             <img src={Banner} alt="Imagem de cristais em um planeta AI" />
           </div>
         </section>
-          <div className={styles.galeria}>
-            <Galeria />
-          </div> 
+        <div className={styles.galeria}>
+          <Galeria />
+          <Populares />
+        </div>
       </main>
     </>
   );
