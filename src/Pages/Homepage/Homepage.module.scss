@@ -1,7 +1,5 @@
 main {
   margin: 0 24px;
-
-  
 }
  
 .principal {
@@ -28,18 +26,15 @@ main {
       width: 401px;
       height: 144px;
       top: 75px;
-      right: 44px;
-      text-shadow: #000000;
+      left: 44px;
     }
   }
 }
 
-
-
-  .galeria {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    margin-left: 17%;
-    margin-top: 1rem;
-  }
+.galeria {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 17%;
+  margin-top: 1rem;
+}

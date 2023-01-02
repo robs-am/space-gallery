@@ -1,4 +1,4 @@
-@import "../../styles/variaveis";
+@import "../../../styles/variaveis";
 
 .populares {
   display: flex;
@@ -12,7 +12,6 @@
 
   h2 {
     margin-top: 5.3rem;
-    color:#fff;
   }
 
   &__imagens {
