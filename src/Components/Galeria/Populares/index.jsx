@@ -7,7 +7,9 @@ export default function Populares() {
     <asided className={styles.populares}>
       <h2>Populares</h2>
       <p>teste</p>
-      <ul className={styles.populares__imagens}></ul>
+      <ul className={styles.populares__imagens}>
+        <li></li>
+      </ul>
     </asided>
   );
 }
