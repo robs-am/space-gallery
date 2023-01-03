@@ -11,28 +11,28 @@
       "creditos": "Alura Space",
       "imagem": "/assets/imagens/galeria/foto-2.png",
       "id": "2",
-      "tag": "Estrelas"
+      "tag": "Personagens"
     },
     {
       "titulo": "Nome da Foto",
       "creditos": "Alura Space",
       "imagem": "/assets/imagens/galeria/foto-3.png",
       "id": "3",
-      "tag": "Lua"
+      "tag": "Planetas"
     },
     {
       "titulo": "Nome da Foto",
       "creditos": "Alura Space",
       "imagem": "/assets/imagens/galeria/foto-4.png",
       "id": "4",
-      "tag": "Galáxias"
+      "tag": "Planetas"
     },
     {
       "titulo": "Nome da Foto",
       "creditos": "Alura Space",
       "imagem": "/assets/imagens/galeria/foto-5.png",
       "id": "5",
-      "tag": "Estrelas"
+      "tag": "Galáxias"
     },
     {
       "titulo": "Nome da Foto",
@@ -46,27 +46,41 @@
       "creditos": "Alura Space",
       "imagem": "/assets/imagens/galeria/foto-7.png",
       "id": "7",
-      "tag": "Galáxias"
+      "tag": "Personagens"
     },
     {
       "titulo": "Nome da Foto",
       "creditos": "Alura Space",
       "imagem": "/assets/imagens/galeria/foto-8.png",
       "id": "8",
-      "tag": "Nebulosas"
+      "tag": "Personagens"
     },
     {
       "titulo": "Nome da Foto",
       "creditos": "Alura Space",
       "imagem": "/assets/imagens/galeria/foto-9.png",
       "id": "9",
-      "tag": "Estrelas"
+      "tag": "Galáxias"
     },
     {
       "titulo": "Nome da Foto",
       "creditos": "Alura Space",
       "imagem": "/assets/imagens/galeria/foto-10.png",
       "id": "10",
-      "tag": "Estrelas"
+      "tag": "Planetas"
+    },
+    {
+      "titulo": "Nome da Foto",
+      "creditos": "Alura Space",
+      "imagem": "/assets/imagens/galeria/foto-11.png",
+      "id": "11",
+      "tag": "Nebulosas"
+    },
+    {
+      "titulo": "Nome da Foto",
+      "creditos": "Alura Space",
+      "imagem": "/assets/imagens/galeria/foto-12.png",
+      "id": "12",
+      "tag": "Galaxias"
     }
   ]
