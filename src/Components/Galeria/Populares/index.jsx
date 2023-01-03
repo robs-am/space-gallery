@@ -6,10 +6,17 @@ export default function Populares() {
   return (
     <asided className={styles.populares}>
       <h2>Populares</h2>
-      <p>teste</p>
+      
       <ul className={styles.populares__imagens}>
-        <li></li>
+        {fotosPopulares.map((fotoPopular) =>{
+          return (
+            <li key={fotoPopular.id}>
+              <img src={fotoPopular.path} alt={fotoPopular.alt} />
+            </li>
+          )
+        })}
       </ul>
+      <button>Ver mais fotos</button>
     </asided>
   );
 }
