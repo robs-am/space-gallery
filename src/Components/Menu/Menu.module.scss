@@ -43,3 +43,50 @@
       font-family: "Orbitron"
     }
   } 
+
+  @media (max-width: 480px) {
+    .menu {
+      width: 15%;
+      
+    
+      &__lista {
+        padding-left: 0.5rem;
+        margin: 0;
+        height:300px;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+    
+      &__item {
+        display: flex;
+        justify-content: center;
+        padding: 0.3rem;
+        align-items: flex-start;
+    
+        &:first-child {
+          a {
+            font-weight: 700;
+            color: $cor-do-texto;
+            font-family: $fonte-normal;
+          }
+        }
+      }
+    
+      img {
+        margin-right: 0.5rem;
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+      }
+    
+      a {
+        text-decoration: none;
+        font-size: 0.9rem;
+        color: #d9d9d9;
+        font-family: "Orbitron"
+      }
+    } 
+  
+  }
