@@ -9,14 +9,14 @@
  
   h2 {
     color: $roxo;
-    font-size: 24px;
+    font-size: 30px;
   }
  
   &__cards {
     list-style: none;
     padding: 0;
     display: flex;
-    width: 60vw;
+    width: 70vw;
     flex-wrap: wrap;
   }
  
@@ -69,10 +69,9 @@
   }
 
   &__imagem {
+    border-radius: 20px 20px 0 0;
     height: 60%;
     width: 100%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
   }
 
   &__descricao {

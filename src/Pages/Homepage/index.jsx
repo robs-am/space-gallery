@@ -17,7 +17,7 @@ export default function Homepage() {
           <Menu />
           <div className={styles.principal__imagem}>
             <h1 className={styles.principal__h1}>
-              Explore a galeria gerada por Inteligência Artifical
+              Explore a galeria gerada por IA
             </h1>
             <img src={Banner} alt="Imagem de cristais em um planeta AI" />
           </div>
