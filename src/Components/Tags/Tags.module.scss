@@ -23,12 +23,49 @@
     padding: 0;
     display: flex;
     justify-content: space-between;
+    gap:0.8rem;
  
     li {
       background-color: $tag-color;
       padding: 6px 10px;
       border-radius: 8px;
       cursor: pointer;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .tags {
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: #d9d9d9;
+    font-family: "Ubuntu", Verdana;
+    font-size: 14px;
+    
+   
+    p {
+      font-size: 1.25rem;
+    }
+   
+    &__lista {
+      list-style: none;
+      width: 300px;
+      padding: 0;
+      display: flex;
+      justify-content: space-evenly;
+      margin-inline: 0.3rem;
+      flex-wrap: wrap;
+   
+      li {
+        background-color: $tag-color;
+        padding: 6px 10px;
+        border-radius: 8px;
+        cursor: pointer;
+      }
     }
   }
 }

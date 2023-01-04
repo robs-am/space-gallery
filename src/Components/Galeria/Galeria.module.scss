@@ -87,3 +87,91 @@
     font-family: $fonte-bold;
   }
 }
+
+@media (max-width: 480px) {
+  .galeria {
+    font-family: $fonte-normal;
+    margin-bottom: 2rem;
+    
+   
+   
+    h2 {
+      color: #6817a1;
+      font-size: 24px;
+    }
+   
+    &__cards {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      width: 80vw;
+      flex-wrap: wrap;
+    }
+   
+    &__card {
+      background-color:#19193b ;
+      border-radius: 20px;
+      height: 280px;
+      width: 285px;
+      margin-right: 0;
+      margin-bottom: 2.5rem;
+      box-shadow: rgba(49, 44, 92, 0.836) 0px 1px 2px 0px;
+      font-family: 'Ubuntu';
+      cursor: pointer;
+      
+  
+    
+  
+      &:hover {
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.05);
+        transition: 0.3s ease-out;
+      }
+  
+      div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 1rem;
+        box-sizing: border-box;
+        width: 100%;
+  
+        p {
+          margin: 0;
+          margin-top: 0.5rem;
+          color: $cinza-claro;
+          font-family: 'Ubuntu';
+        }
+  
+        span {
+          width: 28%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          font-family: 'Ubuntu';
+  
+          img {
+            cursor: pointer;
+            width: inherit;
+          }
+        }
+      }
+    }
+  
+    &__imagem {
+      border-radius: 20px 20px 0 0;
+      height: 60%;
+      width: 100%;
+    }
+  
+    &__descricao {
+      margin-top: 0.5rem;
+      padding: 0 16px;
+      font-size: 1.25rem;
+      color: $cor-do-texto;
+      font-family: $fonte-bold;
+    }
+  }
+}
