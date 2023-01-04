@@ -1,13 +1,17 @@
 @import "../../styles/variaveis";
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 
 .tags {
-  width: 58vw;
+  width: 53vw;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  color: $cor-do-texto;
-  font-family: $fonte-normal;
-  font-size: 14px;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: #d9d9d9;
+  font-family: "Ubuntu", Verdana;
+  font-size: 16px;
+  
  
   p {
     font-size: 1.25rem;
