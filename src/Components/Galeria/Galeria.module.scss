@@ -95,6 +95,10 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+
+    &:nth-child(n+5) {
+      display: none;
+    }
    
    
     h2 {
@@ -109,6 +113,8 @@
       width: 100%;
       flex-wrap: wrap;
       justify-content: space-around;
+
+     
     }
    
     &__card {
@@ -121,8 +127,12 @@
       box-shadow: rgba(49, 44, 92, 0.836) 0px 1px 2px 0px;
       font-family: 'Ubuntu';
       cursor: pointer;
+        
+      &:nth-child(n+5) {
+        display: none;
+      }
       
-  
+     
     
   
       &:hover {
@@ -140,6 +150,10 @@
         padding: 0 1rem;
         box-sizing: border-box;
         width: 100%;
+        
+        &:nth-child(n+5) {
+          display: none;
+        }
   
         p {
           margin: 0;
