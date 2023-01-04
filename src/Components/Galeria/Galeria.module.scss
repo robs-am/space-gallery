@@ -92,7 +92,9 @@
   .galeria {
     font-family: $fonte-normal;
     margin-bottom: 2rem;
-    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
    
    
     h2 {
@@ -104,8 +106,9 @@
       list-style: none;
       padding: 0;
       display: flex;
-      width: 80vw;
+      width: 100%;
       flex-wrap: wrap;
+      justify-content: space-around;
     }
    
     &__card {

@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 
 .tags {
-  width: 53vw;
+  width: 30vw;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -19,7 +19,7 @@
  
   &__lista {
     list-style: none;
-    width: 500px;
+    
     padding: 0;
     display: flex;
     justify-content: space-between;
@@ -36,7 +36,7 @@
 
 @media (max-width: 480px) {
   .tags {
-    width: 40vw;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
