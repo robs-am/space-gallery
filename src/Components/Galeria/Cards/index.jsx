@@ -1,9 +1,9 @@
 import React from "react";
 
-import open from './open.png'
-import favorito from './favorito.png'
+import open from "./open.png";
+import favorito from "./favorito.png";
 
-export default function Cards({itens, styles}) {
+export default function Cards({ itens, styles }) {
   return (
     <div>
       <ul className={styles.galeria__cards}>

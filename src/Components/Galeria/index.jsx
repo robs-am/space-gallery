@@ -22,6 +22,7 @@ export default function Galeria() {
       <h2>Navegue pela galeria</h2>
       <Tags tags={tags} filtraFotos={filtraFotos} setItens={setItens} />
       <Cards itens={itens} styles={styles} />
+      <button>Ver mais fotos</button>
     </section>
   );
 }
