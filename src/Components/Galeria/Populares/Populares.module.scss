@@ -25,9 +25,7 @@
     height: 77%;
     padding: 0;
     list-style: none;
-    &:nth-child(n+3) {
-      display: none;
-    }
+    
     
 
     img {
@@ -35,7 +33,7 @@
       height: 120px;
       border-radius: 8px;
       margin-block:0.5rem;
-      
+        
     }
   }
 
@@ -94,6 +92,8 @@
     h2 {
       margin-top: 0;
     }
+
+   
   
     &__imagens {
       display: flex;
@@ -102,6 +102,12 @@
       height: 77%;
       padding: 0;
       list-style: none;
+
+        li {
+          &:nth-child(n+4) {
+            display: none;
+          }
+        }
       
   
       img {
@@ -110,6 +116,7 @@
         border-radius: 8px;
         margin-block: 0.5rem;
         
+       
       }
     }
   
