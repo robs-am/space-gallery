@@ -50,13 +50,18 @@ main {
 
 .principal {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
   margin-top: 2rem;
+  justify-content: space-evenly;
 
   &__imagem {
-    margin-top:2rem;
+    margin-top:4rem;
     width: 100%;
+    margin-left: 0;
+    margin-right: 4rem;
+    
+    
+    
     
     
     img {
