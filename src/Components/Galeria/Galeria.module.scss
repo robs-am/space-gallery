@@ -1,39 +1,34 @@
 @import "../../styles/variaveis";
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
 
 .galeria {
   font-family: $fonte-normal;
   margin-bottom: 2rem;
-  
- 
- 
+
   h2 {
     color: #6817a1;
     font-size: 30px;
   }
- 
+
   &__cards {
     list-style: none;
     padding: 0;
     display: flex;
-    width: 70vw;
+    width: 50vw;
+
     flex-wrap: wrap;
   }
- 
+
   &__card {
-    background-color:#19193b ;
+    background-color: #19193b;
     border-radius: 20px;
     height: 280px;
     width: 285px;
     margin-right: 2.5rem;
     margin-bottom: 2.5rem;
     box-shadow: rgba(49, 44, 92, 0.836) 0px 1px 2px 0px;
-    font-family: 'Ubuntu';
+    font-family: "Ubuntu";
     cursor: pointer;
-    
-
-  
 
     &:hover {
       box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
@@ -55,7 +50,7 @@
         margin: 0;
         margin-top: 0.5rem;
         color: $cinza-claro;
-        font-family: 'Ubuntu';
+        font-family: "Ubuntu";
       }
 
       span {
@@ -63,7 +58,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        font-family: 'Ubuntu';
+        font-family: "Ubuntu";
 
         img {
           cursor: pointer;
@@ -96,16 +91,15 @@
     align-items: center;
     flex-direction: column;
 
-    &:nth-child(n+5) {
+    &:nth-child(n + 5) {
       display: none;
     }
-   
-   
+
     h2 {
       color: #6817a1;
       font-size: 24px;
     }
-   
+
     &__cards {
       list-style: none;
       padding: 0;
@@ -113,28 +107,23 @@
       width: 100%;
       flex-wrap: wrap;
       justify-content: space-around;
-
-     
     }
-   
+
     &__card {
-      background-color:#19193b ;
+      background-color: #19193b;
       border-radius: 20px;
       width: 310.1px;
-    height: 254px;
+      height: 254px;
       margin-right: 0;
       margin-bottom: 2.5rem;
       box-shadow: rgba(49, 44, 92, 0.836) 0px 1px 2px 0px;
-      font-family: 'Ubuntu';
+      font-family: "Ubuntu";
       cursor: pointer;
-        
-      &:nth-child(n+4) {
+
+      &:nth-child(n + 4) {
         display: none;
       }
-      
-     
-    
-  
+
       &:hover {
         box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
         -moz-transform: scale(1.1);
@@ -142,7 +131,7 @@
         transform: scale(1.05);
         transition: 0.3s ease-out;
       }
-  
+
       div {
         display: flex;
         justify-content: space-between;
@@ -150,25 +139,25 @@
         padding: 0 1rem;
         box-sizing: border-box;
         width: 100%;
-        
-        &:nth-child(n+5) {
+
+        &:nth-child(n + 5) {
           display: none;
         }
-  
+
         p {
           margin: 0;
           margin-top: 0.5rem;
           color: $cinza-claro;
-          font-family: 'Ubuntu';
+          font-family: "Ubuntu";
         }
-  
+
         span {
           width: 28%;
           display: flex;
           justify-content: space-between;
           align-items: center;
-          font-family: 'Ubuntu';
-  
+          font-family: "Ubuntu";
+
           img {
             cursor: pointer;
             width: inherit;
@@ -176,13 +165,13 @@
         }
       }
     }
-  
+
     &__imagem {
       border-radius: 20px 20px 0 0;
       height: 60%;
       width: 100%;
     }
-  
+
     &__descricao {
       margin-top: 0.5rem;
       padding: 0 16px;
