@@ -6,7 +6,7 @@
 
   justify-content: space-between;
   align-items: center;
-  margin: 2rem 24px;
+  margin: 3rem 35px;
 
   &__container {
     display: flex;
@@ -14,7 +14,7 @@
     align-items: center;
     margin-bottom: 1rem;
     padding: 6px 10px;
-    width: 50%;
+    width: 30%;
     position: relative;
     z-index: 0;
 
@@ -67,8 +67,6 @@
 
       padding: 6px 10px;
       width: 70%;
-
-     
     }
 
     &__input {
@@ -76,8 +74,6 @@
 
       border: none;
       background-color: transparent;
-
-      
 
       &::placeholder {
         font-size: 0.9rem;
