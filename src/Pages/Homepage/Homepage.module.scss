@@ -26,8 +26,8 @@ main {
       color: #d9d9d9;
       font-size: 60px;
       font-family: "Orbitron";
-      line-height: 60px;
-      font-weight: 700;
+      line-height: 70px;
+      font-weight: 600;
       letter-spacing: 3px;
       width: 600px;
       height: 144px;
@@ -45,7 +45,7 @@ main {
   justify-content: space-between;
   align-items: flex-start;
   margin-left: 21%;
-  margin-top: 3rem;
+  margin-top: 0;
 }
 
 @media (max-width: 480px) {
