@@ -12,7 +12,7 @@
   font-size: 16px;
 
   h2 {
-    margin-top: 5.3rem;
+    margin-top: 10.3rem;
   }
 
   &__imagens {
@@ -46,9 +46,9 @@
 
     &:hover {
       border-radius: 10px;
-      background: linear-gradient(to right, #313149, $roxo) border-box;
+      background: linear-gradient(#be85d1, #e190e5);
       color: $azul-escuro;
-      transition: 0.1s;
+      transition: 0.3s;
     }
 
     &::before {

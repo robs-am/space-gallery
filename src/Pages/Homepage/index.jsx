@@ -17,9 +17,13 @@ export default function Homepage() {
           <Menu />
           <div className={styles.principal__imagem}>
             <h1 className={styles.principal__h1}>
-              Explore a galeria gerada por IA
+              Explore imagens geradas por IA
             </h1>
-            <img src={Banner2} alt="Imagem de cristais em um planeta AI" />
+            <img
+              className={styles.banner}
+              src={Banner2}
+              alt="Imagem de cristais em um planeta AI"
+            />
           </div>
         </section>
         <div className={styles.galeria}>
