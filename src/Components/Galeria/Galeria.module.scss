@@ -32,11 +32,12 @@
     cursor: pointer;
 
     &:hover {
-      box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+      border: 1px solid rgba(48, 46, 71, 0.836);
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 5px -5px;
       -moz-transform: scale(1.1);
       -webkit-transform: scale(1.1);
       transform: scale(1.05);
-      transition: 0.3s ease-out;
+      transition: 0.4s ease-in-out;
     }
 
     div {
