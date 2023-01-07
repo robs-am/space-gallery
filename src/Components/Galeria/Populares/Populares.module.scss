@@ -5,7 +5,6 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  height: 800px;
 
   width: 50vw;
   color: #cb85fd;
@@ -25,15 +24,15 @@
     list-style: none;
 
     img {
-      width: 170px;
-      height: 120px;
+      width: 212px;
+      height: 118.64px;
       border-radius: 8px;
       margin-block: 0.5rem;
     }
   }
 
   button {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     background: transparent;
     border: none;
     color: $cor-do-texto;
@@ -47,7 +46,7 @@
 
     &:hover {
       border-radius: 10px;
-      background: linear-gradient(to right, $rosa, $roxo) border-box;
+      background: linear-gradient(to right, #313149, $roxo) border-box;
       color: $azul-escuro;
       transition: 0.1s;
     }
@@ -77,7 +76,6 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    height: 500px;
 
     width: 100%;
     color: #cb85fd;
@@ -111,7 +109,7 @@
     }
 
     button {
-      margin-top: 1.5rem;
+      margin-top: 0.5rem;
       background: transparent;
       border: none;
       color: $cor-do-texto;
