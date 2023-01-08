@@ -2,12 +2,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&family=Space+Grotesk:wght@300;400;600&family=Space+Mono:wght@700&display=swap");
 
 .header {
-  display: flex;
+  /* display: flex;
 
   justify-content: space-between;
   align-items: center;
   margin: 2rem 37px;
+  gap: 1.5rem; */
+
+  display: flex;
+  justify-content: flex-start;
+  margin: 2rem 20px;
   gap: 1.5rem;
+  align-items: flex-start;
+  flex-direction: column;
 
   &__container {
     display: flex;
@@ -55,11 +62,25 @@
 
 @media (max-width: 480px) {
   .header {
-    display: flex;
+    /*     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    //margin: 2rem;
+    //margin: 2rem; */
+
+    /* display: flex;
+    justify-content: flex-start;
+    margin: 2rem 37px;
+    gap: 1.5rem;
+
+    flex-direction: row-reverse; */
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    margin-inline: 12px;
+    gap: 1.5rem;
+    flex-direction: row-reverse;
 
     &__container {
       display: flex;

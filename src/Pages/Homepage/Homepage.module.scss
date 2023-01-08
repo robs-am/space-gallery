@@ -4,18 +4,22 @@ main {
 
 .principal {
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  margin-top: 2rem;
-  gap: 1rem;
+  align-items: flex-start;
+  margin-block: 2rem;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 15%;
+  left: 5%;
 
   &__imagem {
-    width: 88%;
+    width: 1212.39px;
+    height: 344px;
+    margin-left: 15%;
+    position: relative;
 
     img {
       width: 100%;
-      height: 288px;
-      backdrop-filter: brightness(60%);
+      //height: 288px;
     }
 
     position: relative;
@@ -27,7 +31,7 @@ main {
       font-size: 60px;
       font-family: "Orbitron";
       line-height: 70px;
-      font-weight: 600;
+      font-weight: 500;
       letter-spacing: 3px;
       width: 600px;
       height: 144px;
@@ -50,30 +54,62 @@ main {
 
 @media (max-width: 480px) {
   .principal {
-    display: flex;
+    /*     display: flex;
+    align-items: flex-start;
+    margin-top: 2rem;
+    justify-content: space-evenly; */
+
+    /*  display: flex;
     align-items: flex-start;
     margin-top: 2rem;
     justify-content: space-evenly;
+    position: relative; */
+
+    /*  display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    justify-content: space-evenly;
+
+    position: absolute;
+    top: 0; */
+    display: flex;
+    align-items: center;
+
+    justify-content: flex-start;
 
     &__imagem {
-      margin-top: 4rem;
+      /*   margin-top: 4rem;
       width: 100%;
       margin-left: 0;
-      margin-right: 5rem;
+      margin-right: 5rem; */
+
+      margin-top: 2rem;
+      width: 100%;
+      //margin-left: 1rem;
+      /* margin-right: -2rem; */
+      display: flex;
+      align-items: flex-start;
+      margin-left: 8%;
 
       img {
-        width: 300px;
+        /*  width: 300px;
         height: 200px;
         object-fit: cover;
         border-radius: 10px;
+        position: relative; */
+
+        object-fit: cover;
+        border-radius: 10px;
         position: relative;
+        width: 313px;
+        height: 140px;
       }
 
       h1 {
         position: absolute;
         z-index: 1;
         color: #d9d9d9;
-        font-size: 28px;
+        font-size: 20px;
         font-family: "Orbitron";
         line-height: 40px;
         font-weight: 600;

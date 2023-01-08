@@ -1,6 +1,6 @@
 import Galeria from "../../Components/Galeria";
 import Populares from "../../Components/Galeria/Populares";
-import Menu from "../../Components/Menu";
+/* import Menu from "../../Components/Menu"; */
 import Header from "./../../Components/Header/index";
 
 import Banner2 from "./Banner2.png";
@@ -14,7 +14,7 @@ export default function Homepage() {
 
       <main>
         <section className={styles.principal}>
-          <Menu />
+          {/* <Menu /> */}
           <div className={styles.principal__imagem}>
             <h1 className={styles.principal__h1}>
               Explore imagens geradas por IA
