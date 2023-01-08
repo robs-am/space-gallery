@@ -9,6 +9,7 @@ import styles from "./Menu.module.scss";
 export default function Menu() {
   return (
     <nav className={styles.menu}>
+      <button className={styles.btn__mobile}>Menu</button>
       <ul className={styles.menu__lista}>
         <li className={styles.menu__item}>
           <img src={inicio2} alt="" />
