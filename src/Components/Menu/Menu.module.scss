@@ -6,8 +6,7 @@
   align-items: flex-start;
   justify-content: center;
 
-  button {
-    margin-left: 1.5rem;
+  #btn_mobile {
     display: none;
   }
 
@@ -62,9 +61,8 @@
     flex-direction: column;
     z-index: 10;
 
-    &__button {
-      padding: 0.3rem;
-      margin: 0;
+    #btn_mobile {
+      display: block;
     }
 
     &__lista {
@@ -77,12 +75,14 @@
       justify-content: space-around;
       margin-left: 14rem; */
 
-      margin: 0;
+      /*  margin: 0;
       list-style: none;
       display: flex;
       flex-direction: column;
       justify-content: space-around;
-      align-items: flex-start;
+      align-items: flex-start; */
+
+      display: none;
     }
 
     &__item {
