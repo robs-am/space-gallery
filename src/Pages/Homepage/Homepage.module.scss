@@ -6,13 +6,15 @@ main {
   display: flex;
   align-items: flex-start;
   margin-block: 2rem;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   position: absolute;
   top: 15%;
   left: 5%;
+  /* top: 15%;
+  left: 5%; */
 
   &__imagem {
-    width: 1212.39px;
+    width: 1263.39px;
     height: 344px;
     margin-left: 15%;
     position: relative;
