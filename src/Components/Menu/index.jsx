@@ -5,20 +5,16 @@ import novas2 from "../../assets/icones/novas2.svg";
 import vistas2 from "../../assets/icones/vistas2.svg";
 
 import styles from "./Menu.module.scss";
-import { useState } from "react";
-import { FaBars } from "react-icons/fa";
-import { ImCross } from "react-icons/im";
+/* import { useState } from "react"; */
+/* import { FaBars } from "react-icons/fa";
+import { ImCross } from "react-icons/im"; */
 
 export default function Menu() {
-  const [Mobile, setMobile] = useState(false);
+  /* const [Mobile, setMobile] = useState(false); */
 
   return (
     <nav className={styles.menu}>
-      <ul
-        className={
-          /* Mobile ? "styles.menu_mobile" : "styles.menu" */ styles.menu__lista
-        }
-      >
+      <ul className={styles.menu__lista}>
         <li className={styles.menu__item}>
           <img src={inicio2} alt="" />
           <a href="/">Home</a>
@@ -35,7 +31,7 @@ export default function Menu() {
           <img src={novas2} alt="" />
           <a href="/">Novas</a>
         </li>
-        <button className={styles.btn_mobile}>Menu</button>
+        {/* <button className={styles.btn_mobile}>Menu</button> */}
       </ul>
     </nav>
   );

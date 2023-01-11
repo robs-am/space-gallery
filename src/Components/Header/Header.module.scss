@@ -76,7 +76,7 @@
     flex-direction: row-reverse; */
 
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 3rem;
     margin-inline: 12px;
     gap: 1.5rem;
@@ -104,6 +104,7 @@
 
     img {
       cursor: pointer;
+      width: 55%;
     }
   }
 }
