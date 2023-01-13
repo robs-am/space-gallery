@@ -58,6 +58,7 @@
       justify-content: space-evenly;
       margin-inline: 0.3rem;
       flex-wrap: wrap;
+      z-index: 999;
 
       li {
         background-color: $tag-color;
