@@ -17,7 +17,7 @@ export default function Homepage() {
           {/* <Menu /> */}
           <div className={styles.principal__imagem}>
             <h1 className={styles.principal__h1}>
-              Explore imagens geradas por IA
+              Explore o espaço através da IA
             </h1>
             <img
               className={styles.banner}
